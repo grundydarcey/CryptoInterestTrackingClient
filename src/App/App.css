@@ -1,9 +1,13 @@
 .main {
   text-align: center;
-  background-color: white;
   margin: 60px;
 }
 
 .App {
   text-align: center;
+}
+
+h1 {
+  color: #0667d0;
+  font-family: candara;
 }
