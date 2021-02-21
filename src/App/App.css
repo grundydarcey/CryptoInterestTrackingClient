@@ -11,3 +11,35 @@ h1 {
   color: #0667d0;
   font-family: candara;
 }
+
+.form {
+  box-sizing: border-box;
+  max-width: 550px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.date, .time, .interest, .morningdeposit {
+  color: #0667d0;
+  font-family: candara;
+  font-size: 30px;
+}
+
+.input {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #FA9F42;
+  padding: 10px;
+  width: 100%;
+  font-size: 25px;
+  color: #FA9F42;
+}
+
+fieldset {
+  border-style: none;
+  box-sizing: border-box;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+}
